@@ -11,6 +11,11 @@
 		5B95F5641DAC1D8200E37367 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B95F5621DAC1D8200E37367 /* Main.storyboard */; };
 		5B95F5661DAC1D8200E37367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B95F5651DAC1D8200E37367 /* Assets.xcassets */; };
 		5B95F5691DAC1D8200E37367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B95F5671DAC1D8200E37367 /* LaunchScreen.storyboard */; };
+		B556EBC91DAC37070054F777 /* StuffWeReallyNeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556EBC81DAC37070054F777 /* StuffWeReallyNeed.swift */; };
+		B556EBCB1DAC39D40054F777 /* FilmLocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556EBCA1DAC39D40054F777 /* FilmLocationTableViewController.swift */; };
+		B556EBCD1DAC39F90054F777 /* FilmLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556EBCC1DAC39F90054F777 /* FilmLocationTableViewCell.swift */; };
+		B556EBCF1DAC3D3F0054F777 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556EBCE1DAC3D3F0054F777 /* CharacterCollectionViewCell.swift */; };
+		B556EBD11DAC3D4B0054F777 /* CharacterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B556EBD01DAC3D4B0054F777 /* CharacterCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		5B95F5651DAC1D8200E37367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B95F5681DAC1D8200E37367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B95F56A1DAC1D8200E37367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B556EBC81DAC37070054F777 /* StuffWeReallyNeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StuffWeReallyNeed.swift; sourceTree = "<group>"; };
+		B556EBCA1DAC39D40054F777 /* FilmLocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmLocationTableViewController.swift; sourceTree = "<group>"; };
+		B556EBCC1DAC39F90054F777 /* FilmLocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmLocationTableViewCell.swift; sourceTree = "<group>"; };
+		B556EBCE1DAC3D3F0054F777 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		B556EBD01DAC3D4B0054F777 /* CharacterCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				5B95F55E1DAC1D8200E37367 /* AppDelegate.swift */,
+				B556EBC81DAC37070054F777 /* StuffWeReallyNeed.swift */,
 				5B95F5621DAC1D8200E37367 /* Main.storyboard */,
+				B556EBCE1DAC3D3F0054F777 /* CharacterCollectionViewCell.swift */,
+				B556EBD01DAC3D4B0054F777 /* CharacterCollectionViewController.swift */,
+				B556EBCA1DAC39D40054F777 /* FilmLocationTableViewController.swift */,
+				B556EBCC1DAC39F90054F777 /* FilmLocationTableViewCell.swift */,
 				5B95F5651DAC1D8200E37367 /* Assets.xcassets */,
 				5B95F5671DAC1D8200E37367 /* LaunchScreen.storyboard */,
 				5B95F56A1DAC1D8200E37367 /* Info.plist */,
@@ -134,6 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B556EBD11DAC3D4B0054F777 /* CharacterCollectionViewController.swift in Sources */,
+				B556EBCF1DAC3D3F0054F777 /* CharacterCollectionViewCell.swift in Sources */,
+				B556EBC91DAC37070054F777 /* StuffWeReallyNeed.swift in Sources */,
+				B556EBCB1DAC39D40054F777 /* FilmLocationTableViewController.swift in Sources */,
+				B556EBCD1DAC39F90054F777 /* FilmLocationTableViewCell.swift in Sources */,
 				5B95F55F1DAC1D8200E37367 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
